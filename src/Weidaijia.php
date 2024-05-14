@@ -17,6 +17,8 @@ class Weidaijia extends Base
         'createCoupon', //创建券
         'queryCoupon', //查询单个券
         'cancelCoupon', //取消单个券
+        'queryImgs', //查询质检图片
+        'queryTrack', //查询订单轨迹
     ];
 
     public function __call($method, array $arguments)
